@@ -2,8 +2,8 @@ name: Daily Telegram Poster
 
 on:
   schedule:
-    # 23:00 (UTC+3) - это 20:00 UTC
-    - cron: '0 20 * * *'
+    # 12:25 (UTC+3) - это 09:25 UTC
+    - cron: '25 9 * * *'
   workflow_dispatch: # Позволяет запускать вручную из веб-интерфейса GitHub
 
 jobs:
